@@ -3,7 +3,7 @@ const ResumeParser = require("./src");
 const fileDir = process.cwd() + "/files/";
 
 const resume = new ResumeParser(
-  "/content/ScalianCV/resume.txt"
+  "/content/CVScalian/resume.txt"
 );
 // const resume = new ResumeParser(fileDir + "resume.pdf");
 
