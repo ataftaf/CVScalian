@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{textpos}
 \usepackage{amsmath}
 \usepackage{color,pxfonts,fix-cm}
 \usepackage{latexsym}
@@ -317,10 +318,11 @@
 \put(62,-82){\fontsize{14}{1}\usefont{T1}{cmr}{b}{n}\selectfont\color{color_103236}Experiences}
 \end{picture}
 
-\begin{picture}(0,0)(0,0)
-\put(56,-362){\fontsize{10}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\input{experiences}
-}
-\end{picture}
+\begin{textblock*}{20cm}(2.5cm,5cm) % {block width} (coords) 
+   \input{experiences}
+\end{textblock*}
+
+
 \begin{picture}(-5,0)(2.5,0)
 \put(147.996,-784.6){\fontsize{7}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_103236}Groupe Scalian 417 l'Occitane, CS 77679. 31676 Labège Tél.: 05 61 00 79 79}
 \put(56,-800.9){\fontsize{7}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_103236}DC\_Scalian\_V1\_0	Ce document est la propriété du Groupe Scalian Ce document est Public □  Restreint  Confidentiel □
