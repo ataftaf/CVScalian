@@ -136,9 +136,9 @@
 \put(61.6,-190.9){\fontsize{14}{1}\usefont{T1}{cmr}{b}{n}\selectfont\color{color_103236}Awards}
 \end{picture}
 
-\begin{picture}(-5,0)(2.5,0)
-\put(56,-220.7){\fontsize{10}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} \input{awards}}
-\end{picture}
+\begin{textblock*}{20cm}(2.5cm,7.5cm) % {block width} (coords) 
+   \input{awards}
+\end{textblock*}
 
 %% The rectangle of skills
 \begin{tikzpicture}[overlay]
@@ -163,34 +163,40 @@
 \put(61.6,-292.5){\fontsize{14}{1}\usefont{T1}{cmr}{b}{n}\selectfont\color{color_103236}Skills}
 \end{picture}
 
-\begin{picture}(-5,0)(2.5,0)
-\put(56,-317.2){\fontsize{10}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}  \input{skills}}
-\end{picture}
+\begin{textblock*}{20cm}(2.5cm,10.8cm) % {block width} (coords) 
+   \input{skills}
+\end{textblock*}
+
 
 \begin{tikzpicture}[overlay]
 \path(0pt,0pt);
 \draw[color_236997,line width=0.5pt,line join=round]
-(55.7pt, -365.7pt) -- (509.8pt, -365.7pt)
+(55.7pt, -355.7pt) -- (509.8pt, -355.7pt)
 ;
 \draw[color_236997,line width=0.5pt,line join=round]
-(55.7pt, -394.5pt) -- (509.8pt, -394.5pt)
+(55.7pt, -384.5pt) -- (509.8pt, -384.5pt)
 ;
 \draw[color_236997,line width=0.5pt,line join=round]
-(55.9pt, -365.4pt) -- (55.9pt, -394.7pt)
+(55.9pt, -355.4pt) -- (55.9pt, -384.7pt)
 ;
 \draw[color_236997,line width=0.5pt,line join=round]
-(282.6pt, -365.4pt) -- (282.6pt, -394.7pt)
+(282.6pt, -355.4pt) -- (282.6pt, -384.7pt)
 ;
 \draw[color_236997,line width=0.5pt,line join=round]
-(509.5pt, -365.4pt) -- (509.5pt, -394.7pt)
+(509.5pt, -355.4pt) -- (509.5pt, -384.7pt)
 ;
 \end{tikzpicture}
 \begin{picture}(-5,0)(2.5,0)
-\put(61.6,-390.9){\fontsize{14}{1}\usefont{T1}{cmr}{b}{n}\selectfont\color{color_103236}Trainings and Diplomas}
+\put(61.6,-380.9){\fontsize{14}{1}\usefont{T1}{cmr}{b}{n}\selectfont\color{color_103236}Trainings and Diplomas}
 \end{picture}
-\begin{picture}(-5,0)(2.5,0)
-\put(56,-465.6){\fontsize{10}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\input{diplomas}}
-\end{picture}
+%\begin{picture}(-5,0)(2.5,0)
+%\put(56,-465.6){\fontsize{10}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\input{diplomas}}
+%\end{picture}
+
+\begin{textblock*}{20cm}(2.5cm,13.8cm) % {block width} (coords) 
+   \input{diplomas}
+\end{textblock*}
+
 \begin{tikzpicture}[overlay]
 \path(0pt,0pt);
 \draw[color_236997,line width=0.5pt,line join=round]
@@ -211,8 +217,11 @@
 \end{tikzpicture}
 \begin{picture}(-5,0)(2.5,0)
 \put(61.6,-601.7){\fontsize{14}{1}\usefont{T1}{cmr}{b}{n}\selectfont\color{color_103236}Languages}
-\put(56,-636.5){\fontsize{10}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}\input{languages}}
 \end{picture}
+%\begin{textblock*}{20cm}(2.5cm,7cm) % {block width} (coords) 
+%   \input{languages}
+%\end{textblock*}
+
 
 \begin{picture}(-5,0)(2.5,0)
 \put(146.8,-701.5){\fontsize{7}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_103236}Groupe Scalian 417 l'Occitane, CS 77679. 31676 Labège Tél.: 05 61 00 79 79}
@@ -318,7 +327,7 @@
 \put(62,-82){\fontsize{14}{1}\usefont{T1}{cmr}{b}{n}\selectfont\color{color_103236}Experiences}
 \end{picture}
 
-\begin{textblock*}{20cm}(2.5cm,5cm) % {block width} (coords) 
+\begin{textblock*}{20cm}(2.5cm,4cm) % {block width} (coords) 
    \input{experiences}
 \end{textblock*}
 
